@@ -8,3 +8,15 @@ enum class ECharacterSkinType : uint8
 
 	Count UMETA(Hidden)
 };
+
+UENUM(BlueprintType)
+enum class EArmorType : uint8
+{
+	Helmet,
+	Chest,
+	Legs,
+	Hands,
+	Foot,
+
+	Count	UMETA(Hidden)
+};
